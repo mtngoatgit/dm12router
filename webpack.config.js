@@ -1,6 +1,6 @@
 module.exports = {
 	entry: {
-		main: "./src/App.js"
+		main: "./public/App.js"
 	},
 	output: {
 		path: "./public",
@@ -13,7 +13,7 @@ module.exports = {
 				test: /\.js$/,
 				exclude: /node_modules/,
 				loader: "babel"
-			}	
-		]	
+			}
+		]
 	}
 }
